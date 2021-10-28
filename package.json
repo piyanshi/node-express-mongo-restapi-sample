@@ -1,0 +1,39 @@
+{
+  "name": "getir-api",
+  "version": "1.0.0",
+  "description": "this is sample api for fetching record from mongo collection for getir requirement",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "test-w": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyanshi/node-express-mongo-restapi-sample.git"
+  },
+  "keywords": [
+    "express",
+    "mongo",
+    "restful"
+  ],
+  "author": "Preeti Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyanshi/node-express-mongo-restapi-sample/issues"
+  },
+  "homepage": "https://github.com/piyanshi/node-express-mongo-restapi-sample#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "supertest": "^6.1.6"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
